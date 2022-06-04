@@ -1,0 +1,19 @@
+Layout/EndOfLine:
+  EnforcedStyle: lf
+
+Layout/HashAlignment:
+  EnforcedColonStyle:
+    - key
+    - table
+
+Style/Documentation:
+  Enabled: false
+
+Style/FrozenStringLiteralComment:
+  Enabled: false
+
+Style/SymbolArray:
+  Enabled: false
+
+Style/WordArray:
+  Enabled: false
