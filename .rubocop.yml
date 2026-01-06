@@ -1,3 +1,7 @@
+AllCops:
+  Exclude:
+    - Rakefile
+
 Layout/EndOfLine:
   EnforcedStyle: lf
 
@@ -5,6 +9,12 @@ Layout/HashAlignment:
   EnforcedColonStyle:
     - key
     - table
+  EnforcedHashRocketStyle:
+    - key
+    - table
+
+Layout/TrailingEmptyLines:
+  Enabled: false
 
 Style/Documentation:
   Enabled: false
@@ -12,8 +22,14 @@ Style/Documentation:
 Style/FrozenStringLiteralComment:
   Enabled: false
 
-Style/SymbolArray:
+Style/IfUnlessModifier:
   Enabled: false
 
-Style/WordArray:
+Style/MutableConstant:
   Enabled: false
+
+Style/SymbolArray:
+  EnforcedStyle: brackets
+
+Style/WordArray:
+  EnforcedStyle: brackets
